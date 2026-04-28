@@ -6,7 +6,7 @@
 /*   By: dasimoes <dasimoes@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 13:08:51 by dasimoes          #+#    #+#             */
-/*   Updated: 2026/04/28 15:17:24 by dasimoes         ###   ########.fr       */
+/*   Updated: 2026/04/28 19:16:51 by dasimoes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define SPAN_HPP
 
 # include <vector>
+# include <iterator>
 # include <algorithm>
 # include <numeric>
 
