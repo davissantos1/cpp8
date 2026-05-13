@@ -6,7 +6,7 @@
 /*   By: dasimoes <dasimoes@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 15:24:12 by dasimoes          #+#    #+#             */
-/*   Updated: 2026/04/28 21:02:34 by dasimoes         ###   ########.fr       */
+/*   Updated: 2026/05/13 17:09:04 by dasimoes         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,30 @@ template <typename T>
 typename MutantStack<T>::const_iterator		MutantStack<T>::end() const
 {
 	return (this->c.end());
+}
+
+template <typename T>
+typename	MutantStack<T>::reverse_iterator		MutantStack<T>::rbegin()
+{
+	return (this->c.rbegin());
+}
+
+template <typename T>
+typename MutantStack<T>::reverse_iterator		MutantStack<T>::rend()
+{
+	return (this->c.rend());
+}
+
+template <typename T>
+typename	MutantStack<T>::const_reverse_iterator		MutantStack<T>::rbegin() const
+{
+	return (this->c.rbegin());
+}
+
+template <typename T>
+typename MutantStack<T>::const_reverse_iterator		MutantStack<T>::rend() const
+{
+	return (this->c.rend());
 }
 
 #endif
